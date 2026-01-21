@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lenca Co.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1 class="logo">Lenca Co.</h1>
+  <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Premium Everyday Tees</h2>
+    <p>Designed simple. Made to last.</p>
+  </section>
+
+  <section class="products" id="products"></section>
+</main>
+
+<div class="cart hidden" id="cart">
+  <h3>Your Cart</h3>
+  <div id="cart-items"></div>
+  <p class="total">Total: $<span id="cart-total">0</span></p>
+  <button id="checkout-btn">Checkout</button>
+  <button id="close-cart">Close</button>
+</div>
+
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
