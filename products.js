@@ -31,10 +31,11 @@ products.forEach(product => {
     const res = await fetch("/api/create-checkout-session", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        product: product
-      })
-    });
+     body: JSON.stringify({
+  name: product.name,
+  price: product.price
+})
+                          });
 
     const data = await res.json();
     window.location.href = data.url;
@@ -42,6 +43,7 @@ products.forEach(product => {
 
   productContainer.appendChild(div);
 });
+
 
 
 
