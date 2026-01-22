@@ -35,4 +35,7 @@ button:hover {
   object-fit: cover;
   border-radius: 8px;
 }
+.products {
+  justify-items: center;
+}
 
