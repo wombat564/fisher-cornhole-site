@@ -18,7 +18,7 @@ const productContainer = document.getElementById("products");
 products.forEach(product => {
   const div = document.createElement("div");
   div.innerHTML = `
-    <img src="${product.image}" style="width:100%; border-radius:8px;"
+    <img src="${product.image}"
     <h3>${product.name}</h3>
     <p>$${product.price}</p>
     <button>Add to Cart</button>
