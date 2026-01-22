@@ -1,1 +1,28 @@
+const products = [
+  {
+    id: 1,
+    name: "Classic Tee",
+    price: 25,
+    image: "https://via.placeholder.com/300x300?text=Classic+Tee"
+  },
+  {
+    id: 2,
+    name: "Premium Black Tee",
+    price: 28,
+    image: "https://via.placeholder.com/300x300?text=Black+Tee"
+  }
+];
+
+const productContainer = document.getElementById("products");
+
+products.forEach(product => {
+  const div = document.createElement("div");
+  div.innerHTML = `
+    <img src="${product.image}" style="width:100%">
+    <h3>${product.name}</h3>
+    <p>$${product.price}</p>
+    <button>Add to Cart</button>
+  `;
+  productContainer.appendChild(div);
+});
 
