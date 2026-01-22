@@ -117,4 +117,13 @@ button:hover {
   margin: 0 0 12px;
   color: #555;
 }
+.hero {
+  text-align: center;
+}
+.products {
+  border-top: 1px solid #eee;
+}
+.products {
+  background: #fdfdfd;
+}
 
