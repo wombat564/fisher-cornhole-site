@@ -19,4 +19,14 @@ button {
 button:hover {
   opacity: 0.85;
 }
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+.products div {
+  max-width: 300px;
+}
 
