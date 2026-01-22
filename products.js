@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Classic Tee",
     price: 25,
-    image: "https://via.placeholder.com/300x300?text=Classic+Tee"
+    image: "https://picsum.photos/400/400"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const productContainer = document.getElementById("products");
 products.forEach(product => {
   const div = document.createElement("div");
   div.innerHTML = `
-    <img src="${product.image}" style="width:100%">
+    <img src="${product.image}" style="width:100%; border-radius:8px;"
     <h3>${product.name}</h3>
     <p>$${product.price}</p>
     <button>Add to Cart</button>
