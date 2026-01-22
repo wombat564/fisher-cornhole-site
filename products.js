@@ -9,7 +9,7 @@ const products = [
     id: 2,
     name: "Premium Black Tee",
     price: 28,
-    image: "https://via.placeholder.com/300x300?text=Black+Tee"
+    image: "https://picsum.photos/400/400"
   }
 ];
 
