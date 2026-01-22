@@ -29,4 +29,10 @@ button:hover {
 .products div {
   max-width: 300px;
 }
+.products img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
