@@ -42,23 +42,20 @@ button:hover {
 }
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: #fafafa;
-  color: #111;
+  font-family: Arial, sans-serif;
 }
-.header {
+
+.site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 24px 40px;
-  background: white;
-  border-bottom: 1px solid #eee;
+  padding: 40px 0;
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: 700;
+  max-width: 300px;
 }
+
 .hero {
   padding: 100px 40px 60px;
   max-width: 1200px;
@@ -137,6 +134,9 @@ button:hover {
 .logo {
   max-width: 280px;
   height: auto;
+}
+main{
+    margin-top:40px;
 }
 
 
