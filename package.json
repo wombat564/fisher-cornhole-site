@@ -1,5 +1,9 @@
 {
+  "name": "fisher-cornhole-site",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "stripe": "^14.0.0"
   }
 }
+
